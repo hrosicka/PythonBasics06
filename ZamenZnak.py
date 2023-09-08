@@ -14,8 +14,8 @@ def zamen(slovo, pozice, novyZnak):
     noveSlovo = slovo[:pozice] + novyZnak + slovo[(pozice + 1):]
     return noveSlovo
        
-print("MĚNIČ PÍSMEN")
-print("------------")
+print("MĚNIČ PÍSMEN - FUNKCE")
+print("---------------------")
 
 slovo = input('Slovo: ')
 
