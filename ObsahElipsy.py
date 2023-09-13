@@ -13,10 +13,12 @@ def obsahElipsy(a, b):
     obsah = pi*a*b
     return obsah
 
-poloosaA = 2
-poloosaB = 3
-obsah = round(obsahElipsy(poloosaA, poloosaB),3)
-print('Obsah elipsy s poloosami {} a {} je {}.'.format(poloosaA, poloosaB, obsah))
+def main():
+    poloosaA = 2
+    poloosaB = 3
+    obsah = round(obsahElipsy(poloosaA, poloosaB),3)
+    print('Obsah elipsy s poloosami {} a {} je {}.'.format(poloosaA, poloosaB, obsah))
 
-
+if __name__ == "__main__":
+    main()
     
