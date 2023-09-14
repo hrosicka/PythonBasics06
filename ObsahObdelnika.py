@@ -11,10 +11,14 @@ def obsahObdelnika(a, b):
     obsah = a*b
     return obsah
 
-stranaA = 2
-stranaB = 3
-obsah = obsahObdelnika(stranaA, stranaB)
-print('Obsah obdélníka o stranách {} a {} je {}.'.format(stranaA, stranaB, obsah))
+def main():
+    stranaA = 2
+    stranaB = 3
+    obsah = obsahObdelnika(stranaA, stranaB)
+    print('Obsah obdélníka o stranách {} a {} je {}.'.format(stranaA, stranaB, obsah))
+
+if __name__ == "__main__":
+    main()
 
 
     
