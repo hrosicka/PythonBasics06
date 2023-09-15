@@ -10,8 +10,11 @@ def obsahElipsy(a, b):
 
     S = pi*a*b
     """
-    obsah = pi*a*b
-    return obsah
+    if a > 0 and b > 0:
+        obsah = pi*a*b
+        return obsah
+    else:
+        raise ValueError("Poloosa musí být kladná")
 
 def main():
     poloosaA = 2
