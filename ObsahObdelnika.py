@@ -8,8 +8,11 @@ def obsahObdelnika(a, b):
 
     S = a*b
     """
-    obsah = a*b
-    return obsah
+    if a > 0 and b > 0:
+        obsah = a*b
+        return obsah
+    else:
+        raise ValueError("Strana musí být kladná")
 
 def main():
     stranaA = 2
